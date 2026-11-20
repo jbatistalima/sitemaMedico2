@@ -76,7 +76,7 @@ def iniciar_banco():
     if cursor.fetchone()[0] == 0:
         nome_master = "Admin"
         email_master = "admin@email.com" 
-        data_validade = "2026-07-16"  # Válido por 30 dias
+        data_validade = "2026-12-19"  # Válido por 30 dias
         
         # CHAVE ANTIFRAUDE (Deve ser identica à string usada dentro do LicencaApp)
         CHAVE_SECRETA = "MinhaChaveSuperSecreta123456"
